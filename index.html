@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimun-scale=1,user-scalable=no">
+    <title>百度一下，你就知道</title>
+    <link rel="icon" href="pc/logo.jpg" type="image/gif" sizes="16*16" media="screen and (min-width:768px;)"/>
+    <link rel="stylesheet" type="text/css" href="pc/baidustyle.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" type="text/css" href="mobile/mstyle.css" media="screen and (max-width:768px)"/>
+    <link type="text/css" rel="stylesheet" href="mobile/Font-Awesome-3.2.1/css/font-awesome.min.css" media="screen and (max-width:768px)"/>
+</head>
+<body>
+
+<!--PC版 html 开始-->
+
+<!--承载整个页面——开始-->
+<div id="wrapper" class="pc-none">
+    <!--承载上半部分-->
+    <div id="head_wrapper">
+        <!--承载中间内容-->
+        <div id="form_wrapper">
+            <!--包裹中间内容-->
+            <div id="form_content">
+                <div id="lg">
+                    <img src="pc/bd_logo1.png" alt="logo">
+                </div>
+                <div id="fr">
+                    <form action="http://www.baidu.com/s" method="get">
+                        <input type="text" class="text_input" autofocus="autofocus" id="tt" ><label for="tt"></label>
+                        <input type="submit" id="sub" value="百度一下">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--承载顶部ul-->
+        <div class="ul_wrapper">
+            <ul>
+                <li><a href="http://news.baidu.com/">新闻</a></li>
+                <li><a href="http://www.hao123.com/">hao123</a></li>
+                <li><a href="http://map.baidu.com/">地图</a></li>
+                <li><a href="http://v.baidu.com/">视频</a></li>
+                <li><a href="http://tieba.baidu.com/">贴吧</a></li>
+                <li class="normal"><a href="#">登录</a></li>
+                <li class="normal set"><a href="#">设置</a>
+                    <!--下拉菜单-->
+                    <div class="setup_menu">
+                        <ul class="sz_ul">
+                            <li><a href="#">搜索设置</a></li>
+                            <li><a href="#">高级搜索</a></li>
+                            <li><a href="#">关闭预测</a></li>
+                            <li><a href="#">搜索历史</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="more"><a href="#">更多产品</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper_wrapper"></div>
+    <!-- 承载footer-->
+    <div class="footer_wrapper">
+        <div id="footer_content">
+            <p class="p1">
+                <a href="https://www.baidu.com/cache/sethelp/help.html" target="_blank">把百度设为首页</a>
+                <a href="http://home.baidu.com/">关于百度</a>
+                <a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-homeprofile">About Baidu</a>
+            </p>
+            <p class="p2">
+                <span>&copy</span>2015 Baidu
+                <a href="http://www.baidu.com/duty/">使用百度前必读</a>
+                <a href="http://jianyi.baidu.com/">意见反馈</a> 京ICP证030173号<i id="gs"><img src=" pc/gs.gif"></i>
+            </p>
+        </div>
+    </div>
+</div>
+<!--承载整个页面——结束-->
+
+<!--PC版html结束-->
+
+<!--手机版html 开始-->
+<!--包裹层-->
+<div id="m-wrapper" class="mobile-none">
+    <!--天气-->
+    <div class="weather">
+        <div class="rain"><img src="mobile/images/iconfont-rainandsnow.png"><span>3°</span> </div>
+    </div>
+    <!--header-->
+    <div class="header">
+        <!--右侧用户图标-->
+        <div class="user-icon">
+            <a href="#"><i class="icon-username"></i></a>
+        </div>
+        <!--百度LOGO-->
+        <div class="logo">
+            <img src="mobile/images/logo.png" width="175px" height="55px" alt="百度一下，你就知道">
+        </div>
+        <!--搜索框-->
+        <form class="header-form" action="http:\\www.baidu.com\s" method="get">
+            <div id="serch-wrapper">
+                <textarea class="serch-input" maxlength="64"></textarea>
+                <!--button-->
+                <div class="btn-wrapper">
+                    <!--语音图标-->
+                    <div class="voice-logo"></div>
+                    <button type="submit" class="search-btn">百度一下</button>
+                </div>
+            </div>
+        </form>
+        <!--导航-->
+        <div class="header-nav clearfix">
+            <a href="http://m.baidu.com/news?fr=mohome&ssid=0&from=844b&uid=&pu=sz%401320_2001%2Cta%40iphone_1_8.0_3_600&bd_page_type=1"><i
+                    class="nav-news"></i>新闻</a>
+            <a href="http://dushu.baidu.com/"><i class=" nav-book"></i>小说</a>
+            <a href="http://video.m.baidu.com/?from=wise_nav"><i class="inav-video"></i>视频</a>
+            <a href="http://life.m.baidu.com/?sfrom=wise_nav"><i class="nav-life"></i>生活+</a>
+            <a href="http://map.baidu.com/mobile/webapp/index/index/?itj=45&wtj=wi&ssid=0&from=844b&uid=&pu=sz%401320_2001%2Cta%40iphone_1_8.0_3_600&bd_page_type=1&showcvr=1"><i
+                    class="nav-map"></i>地图</a>
+            <a href="#"><i class=" nav-more"></i>更多</a>
+        </div>
+    </div>
+    <!--常用网址-->
+    <div class="main">
+        <div class="main-nav">
+            <div class="web-site title">
+                <h2>常用网址</h2>
+                <a href="#" class="more">
+                    <i class="icon-tt"></i>
+                </a>
+            </div>
+            <div class="main-nav-content clearfix">
+                <a href="http://tieba.baidu.com/?page=discovery" class="new"><span>贴吧</span></a>
+                <a href="http://m.hao123.com/?itj=49">hao123</a>
+                <a href="#">地图</a>
+                <a href="#">百度VIP</a>
+                <a href="#">图片</a>
+                <a href="#">音乐</a>
+                <a href="#">糯米</a>
+                <a href="#">
+                    <i class="icon-plus"></i>
+                </a>
+            </div>
+        </div>
+        <!--实时热点-->
+        <div class="main-content clearfix">
+            <div class="hot-word title">
+                <h2>实时热点</h2>
+                    <span>
+                        <i class=" icon-re"></i>换一批
+                    </span>
+                <a href="#" class="more">
+                    <i class="icon-tt"></i>
+                </a>
+            </div>
+            <ul class="hot">
+                <li><a href="#" class="hot-new">产检双胎分娩单丁</a></li>
+                <li><a href="#" class="hot-new">女子连生15个女儿</a></li>
+                <li><a href="#" class="hot-new">黄安举报卢广仲</a></li>
+                <li><a href="#">TVB48周年台庆</a></li>
+                <li><a href="#">拿百万支票报恩</a></li>
+                <li><a href="#">11岁小男孩当爸</a></li>
+            </ul>
+            <div class="hot-search">
+                <a href="#">
+                    百度风云榜
+                    <i class="icon-arrow"></i>
+                </a>
+            </div>
+        </div>
+        <!--生活服务-->
+        <div class="life-service clearfix">
+            <div class="title">
+                <h2>生活服务</h2>
+                <a href="#" class="more">
+                    <i class="icon-tt"></i>
+                </a>
+            </div>
+            <div class="life-service-content">
+                <div class="gps">
+                    <div class="gps-info">
+                        <p>点击定位，查看附近位置信息</p>
+                    </div>
+                    <button>定位<i></i></button>
+                </div>
+                <ul class="life-list">
+                    <li>
+                        <a href="#">
+                            <div class="film"></div>
+                            <p>电影</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="group"></div>
+                            <p>团购</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="takeaway"></div>
+                            <p>外卖</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="car"></div>
+                            <p>打车</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="hotel"></div>
+                            <p>酒店</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="food"></div>
+                            <p>美食</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ktv"></div>
+                            <p>KTV</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="bank"></div>
+                            <p>银行</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
